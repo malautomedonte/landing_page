@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav,
+header {
+  color: #f9faf8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.wrapper-nav-header {
+  background: #1f2937;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 16px;
+}
+
+.header {
+  margin-top: 48px;
+  padding-bottom: 64px;
+}
+
+.header .banner {
+  display: flex;
+}
+
+.header .title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header p,
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.btn-signup {
+  margin-top: 16px;
+}
+
+.header a {
+  background-color: #3882f6;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+.boxes {
+  margin: 48px 0;
+}
+
+.boxes .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-content {
+  border: 3px solid #3882f6;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.inspirational-quote {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+}
+
+.quote {
+  background: #e5e7eb;
+}
+
+.quote h1 {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quote-author {
+  align-self: flex-end;
+}
+
+.infobox {
+  background: #3882f6;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+  margin: 48px;
+}
+
+.btn-signup-infobox {
+  color: white;
+  border: 2px solid white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  align-self: flex-end;
+}
+
+.infobox-content {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  color: #f9faf8;
+  background: #1f2937;
+  height: 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
